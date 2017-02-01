@@ -62,7 +62,8 @@ This module contains an exercises for the [Basic I/O Java trail](https://docs.or
 ### Basic I/O
 
 #### exercise 1
-Write a program which will read some text file A and it will write the file to buffered character stream and also to byte stream. Both of these output streams will be stored on hard drive.
+Write a program which will read some text file A and it will write the file to buffered character stream. Then it will read the same file using
+unbuffered IO and write ouput into byte stream.
 
 #### exercise 2
 Write a program which will create own type of Character stream on top of InputStream using a bridge, It will "encrypt" the content using simple ceasar cipher.
