@@ -66,9 +66,10 @@ Write a program which will read some text file A and it will write the file to b
 unbuffered IO and write ouput into byte stream.
 
 #### exercise 2
-Write a program which will create own type of Character stream on top of InputStream using a bridge, It will "encrypt" the content using simple ceasar cipher.
-Implement also decrypting stream on top of Output stream using a bridge. Then write encrypted message using stream and try to decrypt it using your stream.
-Then read it using simple file reader, you should get encrypted text.
+Write a program which will create own type of Character stream on top of InputStream using a bridge, It will be decrypting stream using simple ceasar cipher.
+In order to verify that your stream decrypts correctly you can try decrypt file `src/main/resources/encrypted` with shift 7 (you should see meaningful text).
+Note that encrypted text encrypts only alphabetic characters.
+Implement also encrypting stream on top of Output stream using a bridge. Then write encrypted message using stream. Then read it using simple file reader, you should get encrypted text.
 
 #### exercise 3
 Write program which will store simple data types into data stream. Implement a reader which will read primitive data types from stream.
