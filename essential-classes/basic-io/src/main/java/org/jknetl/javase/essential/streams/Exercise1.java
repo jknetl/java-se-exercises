@@ -16,8 +16,8 @@ import java.io.OutputStream;
 public class Exercise1 {
 
     static final String inputFile = "essential-classes/basic-io/src/main/resources/FileA.txt";
-    static final String outputFile1 = "essential-classes/basic-io/src/main/resources/FileB.txt.tmp";
-    static final String outputFile2 = "essential-classes/basic-io/src/main/resources/FileB.bytes.tmp";
+    static final String outputFile1 = "essential-classes/basic-io/src/main/resources/FileB.txt.out";
+    static final String outputFile2 = "essential-classes/basic-io/src/main/resources/FileB.bytes.out";
 
     public static void main(String[] args) {
 

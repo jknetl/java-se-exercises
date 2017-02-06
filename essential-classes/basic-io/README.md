@@ -62,7 +62,7 @@ This module contains an exercises for the [Basic I/O Java trail](https://docs.or
 ### Basic I/O
 
 #### exercise 1
-Write a program which will read some text file A and it will write the file to buffered character stream. Then it will read the same file using
+Write a program which will read some text file A and will write the file to buffered character stream. Then it will read the same file using
 unbuffered IO and write ouput into byte stream.
 
 #### exercise 2
