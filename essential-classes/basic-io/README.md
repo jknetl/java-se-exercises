@@ -72,8 +72,8 @@ Note that encrypted text encrypts only alphabetic characters.
 Implement also encrypting stream on top of Output stream using a bridge. Then write encrypted message using stream. Then read it using simple file reader, you should get encrypted text.
 
 #### exercise 3
-Write program which will store simple data types into data stream. Implement a reader which will read primitive data types from stream.
- Then try to implement another reader which will read types in wrong order. Observe what happens if you try to read different type than the currently written in the stream.
+Write program which will store simple data types into data stream. Implement a program which will read primitive data types from stream.
+ Then try to read stream again, but try to read types in wrong order. Observe what happens.
 
 #### exercise 4
 Write Program which will serialize few objects. Verify that if you store instance multiple times and you read it afterwards,
