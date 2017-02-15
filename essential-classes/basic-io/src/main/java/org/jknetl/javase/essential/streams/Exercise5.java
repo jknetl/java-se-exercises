@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Exercise5 {
 
-    public static String INPUT_FILE = "essential-classes/basic-io/src/main/resources/tokens.txt";
+    public static String INPUT_FILE = "essential-classes/basic-io/src/main/resources/streams/tokens.txt";
 
     public static void main(String[] args) {
 

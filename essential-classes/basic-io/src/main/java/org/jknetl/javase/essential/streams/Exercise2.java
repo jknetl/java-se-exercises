@@ -17,10 +17,10 @@ import java.io.OutputStreamWriter;
  */
 public class Exercise2 {
 
-    private static final String ENCRYPTED_FILE = "essential-classes/basic-io/src/main/resources/encrypted";
+    private static final String ENCRYPTED_FILE = "essential-classes/basic-io/src/main/resources/streams/encrypted";
     private static final int SHIFT = 7;
     private static final int ALPHABET_LENGTH = 'z' - 'a' + 1;
-    private static final String OUTPUT_FILE = "essential-classes/basic-io/src/main/resources/encrypted.out";
+    private static final String OUTPUT_FILE = "essential-classes/basic-io/src/main/resources/streams/encrypted.out";
 
     /**
      * Class which writes streams using simple caesar cipher. The cipher encrypts all alphabetic characters by shifting their code.

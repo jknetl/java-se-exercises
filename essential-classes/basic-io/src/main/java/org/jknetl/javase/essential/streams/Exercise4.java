@@ -18,7 +18,7 @@ import java.util.Objects;
  */
 public class Exercise4 {
 
-    private static final String PEOPLE_FILE = "essential-classes/basic-io/src/main/resources/people.out";
+    private static final String PEOPLE_FILE = "essential-classes/basic-io/src/main/resources/streams/people.out";
 
     public static void main(String[] args) {
         Person joe = new Person("Joe", "Tribiani", 25);

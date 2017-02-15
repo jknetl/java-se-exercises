@@ -14,7 +14,7 @@ import java.io.IOException;
  */
 public class Exercise3 {
 
-    private static final String OUTPUT_FILE = "essential-classes/basic-io/src/main/resources/data-stream-file.out";
+    private static final String OUTPUT_FILE = "essential-classes/basic-io/src/main/resources/streams/data-stream-file.out";
 
     public static void main(String[] args) {
 
