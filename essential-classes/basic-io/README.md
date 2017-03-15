@@ -99,7 +99,7 @@ Manually create a directory which will contain another two subdirectories, one f
 Try retrieving path, merging paths, normalizing paths, testing on existence and links.
 
 #### exercise 2
-Create program which will behave as both as “cp” and “mv”. With additional argument it should support globbing
+Create program which will behave as both as “cp” and “mv”.
 
 #### exercise 3
 Create a “rm” program. It should work on directories, files and links.
@@ -108,34 +108,32 @@ Create a “rm” program. It should work on directories, files and links.
 Create a program which will allow you to show basic attributes.
 
 #### exercise 5
-Create a programe which will be able to set posix permissions.
+Create a program which will be able to set posix permissions.
 
 #### exercise 6
-Create a program which will be able to store and read user-defined attributes into files metadata.
+Create a program which will be able to set owner of a file.
 
 #### exercise 7
-Create a program which will use java.nio package to read one file and write it to another file.
-It will dynamically determine the file size. If the size is larger than some threshold,
- then it will use streams, otherwise will use methods designed for small files
+Create a program which will be able to store and read user-defined attributes into files metadata.
 
 #### exercise 8
-Seek inside of Random access file
-
+Create a program which will use java.nio package to read one file and write it to another file.
+It will dynamically determine the file size. If the size is larger than some threshold,
+then it will use streams, otherwise will use methods designed for small files
+ 
 #### exercise 9
-Create a “ls” program which will simply show content of the directories. It will allow to take glob filter.
+Seek inside of Random access file and write some string to the middle of a file.
 
 #### exercise 10
-Write program which will create a symlink and hardlink to specific file.
+Create a “ls” program which will simply show content of the directories. It will allow to take glob filter. If no directory is passed
+as argument, then first root filesystem root will be used.
 
 #### exercise 11
-Create simple “find” program, which will find files by name (and possibly by other attribute)
+Write program which will create a symlink and hardlink to specific file.
 
 #### exercise 12
-Create program which will watch a directory for changes and it will prints any event.
+Create simple “find” program, which will find files by name (and possibly by other attribute)
 
 #### exercise 13
-Create programe which will determine all filesytem roots and outputs their free space.
-
-#### exercise 14
-Write a program which will detect mime type of a file.
+Create program which will watch a directory for changes. If some file in the directory changes it will be printed to stdout.
 
